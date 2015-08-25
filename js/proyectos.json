@@ -1,0 +1,40 @@
+{
+	"proyectos":[
+		{
+		  "nombre":"To Do List",
+		  "imagen":"img/proy1.png",
+		  "url": "#",
+		  "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+		},
+		{
+		  "nombre":"KAMG Clothes",
+		  "imagen":"img/proy2.png",
+		  "url": "#",
+		  "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+		},
+		{
+		  "nombre":"Player Music",
+		  "imagen":"img/proy3.png",
+		  "url": "#",
+		  "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+		},
+		{
+		  "nombre":"ClimApp",
+		  "imagen":"img/proy4.png",
+		  "url": "#",
+		  "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+		},
+		{
+		  "nombre":"KAMG Inventario",
+		  "imagen":"img/proy5.png",
+		  "url": "#",
+		  "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+		},
+		{
+		  "nombre":"Proyecto Seis",
+		  "imagen":"img/proy6.jpg",
+		  "url": "#",
+		  "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+		}
+	]
+}

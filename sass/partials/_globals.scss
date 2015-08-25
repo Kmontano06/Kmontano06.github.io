@@ -1,0 +1,37 @@
+/*
+	Indice Globals:
+		#Style Main
+		#Container Margin Section
+		 #Footer Main
+		 #Footer Main Information
+		 	-Footer Main Information Title
+		 	-Footer Main Information Paragraph
+		 	-Footer Main Information Dato
+		 	-Hover Footer Main Information Emails
+*/
+/*  #Style Main */
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  height:100%; 
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body{
+	height:100%;
+}
+a{
+ text-decoration: none;
+}
+.subtitle-main-section{
+	font-size:25px;
+	margin: 10px auto;
+	font-family:$title-font;
+	padding:5px;
+	text-align:center;
+	width:50%;
+}
+h4{
+	margin: 0;
+}

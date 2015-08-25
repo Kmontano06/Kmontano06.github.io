@@ -1,0 +1,74 @@
+/*
+  Indice Forms:
+    #Form Content
+    #Form Content Inputs
+      -Textarea
+      -Submit Button
+      -Hover Submit Button
+    #Placeholders Colors
+    #Footer Content Change
+*/
+/* #Form Content */
+.form-contact{
+  margin-left: 132px;
+  margin-right: 150px;
+  position: relative;
+  width: 35%;
+  display: inline-block;
+}
+/* #Form Content Inputs */
+.form-inputs{
+  display: inline-block;
+  width: 100%;
+  height: 45px;
+  margin-bottom: 10px;
+  border: 4px solid $color-white;
+  background: transparent;
+  color: $color-white;
+  padding: 8px;
+  font-size: 15px;
+}
+// Textarea
+.message-contact{
+	height: 160px;
+}
+// Submit Button
+.button-submit{
+  border: 3px solid $color-white;
+  padding: 13px 35px;
+  position: absolute;
+  left: 350px;
+  bottom: -50px;
+  background: transparent;
+  font-size: 15px;
+  color: $color-white;
+  font-weight: bold;
+}
+//Hover Submit Button
+.button-submit:hover{
+  background:$color-white;
+  color:$color-pink;
+  font-weight: bold;
+}
+/* #Placeholders Colors */
+::-webkit-input-placeholder { color: $color-white; }
+:-moz-placeholder { color:$color-white; }
+::-moz-placeholder { color:$color-white; }
+:-ms-input-placeholder { color:$color-white; }
+
+//Validacion Form
+.content-title-input{
+  font-family:$title-font;
+  width: 100%;
+  background:$color-white;
+  color:$color-pink;
+  padding:5px;
+  font-size: 15px;
+}
+.incorrecto{
+  background: $color-black;
+  color: $color-white;
+}
+.correcto{
+  color:$color-pink;
+}

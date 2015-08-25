@@ -1,0 +1,45 @@
+/*
+  Indice Contacto:
+    #Section Background Contact
+*/
+.section-contact{
+	color:$color-white;
+	position:relative;
+	.subtitle-main-section{
+		color:$color-pink;
+  }
+}
+.content-background-contact{
+	background:url(../img/background_list.png)no-repeat;
+	width:100%;
+	background-size:100% 100%;
+}
+.content-section-contact{
+	background:$color-pink;
+	opacity:0.7;
+	padding-top: 100px;
+  padding-bottom: 90px;
+}
+.info-contact{
+	width:35%;
+	display:inline-block;
+	text-align:center;
+	vertical-align:top;
+}
+.title-contact{
+	font-size:30px;
+	font-family:$title-font;
+}
+.paragraph-info{
+	font-size:20px;
+	font-family:$title-font;
+}
+.dato-contact{
+	color:$color-white;
+	display:block;
+	font-size:15px;
+	font-family:$body-font;
+}
+.link-dato-contact:hover{
+	text-decoration:underline;
+}

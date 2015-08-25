@@ -1,0 +1,65 @@
+.section-projects .subtitle-main-section{
+    color:$color-pink-ligth;
+}
+.section-projects-container{
+  display: inline-block;
+  width: 100%;
+  position: relative;
+}
+.list-project{
+  list-style: none;
+  padding:0;
+  margin-left: 110px;
+}
+.list-project-item{
+  width: 40%;
+  display: inline-block;
+  margin: 25px;
+  vertical-align: top;
+  background:url(../img/background2.png)no-repeat;
+  background-size:100%;
+  padding: 20px;
+}
+.container-left{
+  text-align: center;
+  display: inline-block;
+  width: 50%;
+}
+.container-left-image{
+  width: 100%;
+  height: 200px;
+}
+.container-left-title{
+  color:$color-white;
+  margin: 0;
+  font-family: $title-font;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.container-right{
+  text-align: center;
+  display: inline-block;
+  width: 50%;
+  padding:10px;
+  font-size: 15px;
+  vertical-align: top;
+}
+.container-right-link{
+    border: 3px solid $color-white;
+    padding: 5px 50px;
+    color:$color-white;
+    font-weight: bold;
+}
+.container-right-link:hover{
+  background:$color-white;
+  color: $color-pink-ligth;
+}
+.container-right-description{
+  margin: 0;
+  margin-bottom: 55px;
+  margin-top: 24px;
+  font-family: $body-font;
+  background:$color-white;
+  padding:20px 10px;
+  text-align: left;
+}
