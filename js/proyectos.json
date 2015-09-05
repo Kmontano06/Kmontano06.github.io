@@ -31,8 +31,8 @@
 		  "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 		},
 		{
-		  "nombre":"Proyecto Seis",
-		  "imagen":"img/proy6.jpg",
+		  "nombre":"Recipes Book",
+		  "imagen":"img/proy6.png",
 		  "url": "#",
 		  "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 		}
