@@ -7,8 +7,8 @@
 	margin-left: 120px;
 
 		.subtitle-info{
-			background: $color-white;
-			color:$color-pink-dark;
+			background:$color-pink-dark ;
+			color:$color-gray;
 			padding: 10px;
 			width: 35%;
 			font-size: 15px;
@@ -23,11 +23,11 @@
 .list-skills-item{
 	display:inline-block;
 	border:3px solid $color-white;
-  margin-right: 10px;
-  margin-bottom: 20px;
-  width: 35%;
-  text-align: center;
-  padding: 8px;
+  	margin-right: 10px;
+  	margin-bottom: 20px;
+  	width: 35%;
+  	text-align: center;
+  	padding: 8px;
 }
 .title-skill{
 	margin:0;

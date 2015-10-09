@@ -24,16 +24,30 @@ body{
 a{
  text-decoration: none;
 }
+h1,h2,h3,h4{
+	margin: 0;
+}
+.content-title-section{
+	text-align:center;
+	margin-bottom: 40px;
+}
 .subtitle-main-section{
-	font-size:25px;
-	margin: 0 auto;
+	font-size:40px;
+	margin: 0px auto;
 	font-family:$title-font;
-	padding:20px 0;
 	text-align:center;
 	width:100%;
-	background:$color-pink;
-	color:$color-white;
+	color:$color-pink;
 }
-h4{
-	margin: 0;
+.description-section{
+	color:$color-white;
+	font-family:$body-font;
+	margin:7px;
+	font-size:12px;
+}
+.line-title{
+	border: 2px solid $color-white;
+	width: 60px;
+	margin: 7px auto;
+	padding: 0px;
 }

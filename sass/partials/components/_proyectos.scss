@@ -1,17 +1,24 @@
-.section-projects .subtitle-main-section{
-  margin-bottom: 20px;
+.section-projects{
+  padding-top:25px;
+  .description-section{
+    color:$color-gray-dark;
+  }
+  .line-title{
+    border: 2px solid $color-gray-dark;
+  }
 }
 .section-projects-container{
   display: inline-block;
   width: 100%;
   position: relative;
 }
+
 .list-project{
   list-style: none;
   padding:0;
   margin: 0 auto;
   width: 85%;
-  text-align: center
+  margin-left: 195px;
 }
 .list-project-item{
   width: 25%;

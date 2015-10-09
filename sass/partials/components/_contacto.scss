@@ -3,23 +3,27 @@
     #Section Background Contact
 */
 .section-contact{
-	color:$color-pink;
-	position:relative;
-	.subtitle-main-section{
-		margin-top: 30px;
-  }
+	color:$color-white;
+	margin-top: 60px;
 }
 .content-background-contact{
 	width:100%;
+	background:url(../img/web3.jpg)no-repeat;
+	background-size:100% 100%;
 }
 .content-section-contact{
-	padding-top: 100px;
-  padding-bottom: 90px;
+	padding-top: 25px;
+	background:$color-black;
+	opacity:0.7;
+	padding-bottom:90px;
 }
 .info-contact{
 	width:35%;
 	margin:0 auto;
 	text-align:center;
+	background:$color-pink-ligth;
+	padding:20px;
+	margin-top: 70px;
 }
 .title-contact{
 	font-size:30px;
@@ -30,7 +34,7 @@
 	font-family:$title-font;
 }
 .dato-contact{
-	color:$color-pink;
+	color:$color-white;
 	display:block;
 	font-size:15px;
 	font-family:$body-font;
