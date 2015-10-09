@@ -26,11 +26,13 @@ a{
 }
 .subtitle-main-section{
 	font-size:25px;
-	margin: 10px auto;
+	margin: 0 auto;
 	font-family:$title-font;
-	padding:5px;
+	padding:20px 0;
 	text-align:center;
-	width:50%;
+	width:100%;
+	background:$color-pink;
+	color:$color-white;
 }
 h4{
 	margin: 0;

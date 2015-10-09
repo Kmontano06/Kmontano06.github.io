@@ -3,38 +3,37 @@
 		{
 		  "nombre":"To Do List",
 		  "imagen":"img/proy1.png",
-		  "url": "#",
-		  "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+		  "url": "../JS Avanzado/To Do List/index.html",
+		  "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		  "color":"#087c5a"
 		},
 		{
 		  "nombre":"KAMG Clothes",
 		  "imagen":"img/proy2.png",
-		  "url": "#",
-		  "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+		  "url": "../Vitrina Ropa/index.html",
+		  "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		  "color":"#b41859"
 		},
 		{
 		  "nombre":"Player Music",
 		  "imagen":"img/proy3.png",
-		  "url": "#",
-		  "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+		  "url": "../JS Avanzado/Reproductor-Comp/index.html",
+		  "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		  "color":"#232323"
 		},
 		{
 		  "nombre":"ClimApp",
 		  "imagen":"img/proy4.png",
-		  "url": "#",
-		  "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+		  "url": "../JS Avanzado/ClimApp/index.html",
+		  "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		  "color":"#0b4b78"
 		},
 		{
 		  "nombre":"KAMG Inventario",
 		  "imagen":"img/proy5.png",
-		  "url": "#",
-		  "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-		},
-		{
-		  "nombre":"Recipes Book",
-		  "imagen":"img/proy6.png",
-		  "url": "#",
-		  "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+		  "url": "../JS/Semana 8/Inventario/index.html",
+		  "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		  "color":"#34495e"
 		}
 	]
 }

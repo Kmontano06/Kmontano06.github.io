@@ -9,43 +9,35 @@
 <body>
 	<header class="header-nav">
 		<nav class="navigation-main navigation-border-index">
-			<img class="image-logo" src="img/logo.png">
+			<a href="#"><img class="image-logo" src="img/logo.png"></a>
 		  <ul class="list-navigation">
-		  	<li class="list-navigation-item"><a class="list-navigation-link " href="#">Inicio</a></li>
 		  	<li class="list-navigation-item"><a class="list-navigation-link " href="#acerca">Acerca de</a></li>
 		  	<li class="list-navigation-item"><a class="list-navigation-link" href="#projects">Proyectos</a></li>
 		  	<li class="list-navigation-item"><a class="list-navigation-link" href="#contacto">Contacto</a></li>
 		  </ul>		
 		</nav>
 	</header>
-	<section class="slideshow">		
-		<div class="slideshow-container">
-			<div class="slider">
-				<figure class="slider-content">
-					<img class="slider-image" src="img/slider-inicio5.jpg" alt=""/>
-				</figure>
-				<figure class="slider-content">
-					<img class="slider-image" src="img/slider-inicio4.jpg" alt=""/>
-				</figure>
-				<figure class="slider-content">
-					<img class="slider-image" src="img/slider-inicio6.jpg" alt=""/>
-				</figure>
-				<figure class="slider-content">
-					<img class="slider-image" src="img/slider-inicio8.jpg-large" alt=""/>
-				</figure>
-			</div>
-	</section>
+	<div class="content-image">
+		<div class="content-welcome">
+			<h1 class="title-welcome">Kenia Montano Granados</h1>
+			<p class="paragraph-welcome">Bienvenido(a)</p>
+		</div>
+		</div>
 	<section class="section-info" id="acerca">
 		<h2 class="subtitle-main-section">Acerca de</h2>
 		<div class="content-background-info">
 			<div class="content-section-info">
-				<div class="info-rigth">
+				<div class="content-about-rigth">
 					<h1 class="title-info">Kenia Montano Granados</h1>
 					<h2 class="subtitle-info">Diseñadora y Desarrolladora Web</h2>	
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam rutrum libero nec risus aliquam molestie id ac enim. In non risus auctor, placerat mi nec, commodo ante.</p>
-				 	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam rutrum libero nec risus aliquam molestie id ac enim. In non risus auctor, placerat mi nec, commodo ante.</p>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam rutrum libero nec risus aliquam molestie id ac enim. In non risus auctor, placerat mi nec, commodo ante.
+					</p>
+				 	<p>
+				 		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam rutrum libero nec risus aliquam molestie id ac enim. In non risus auctor, placerat mi nec, commodo ante.
+				 	</p>
 				</div>
-				<div class="info-left">
+				<div class="content-about-left">
 				 	<h2 class="subtitle-info">Habilidades<h2>
 				<ul class="list-skills">
 					<li class="list-skills-item">
@@ -63,6 +55,9 @@
 					<li class="list-skills-item">
 						<h3 class="title-skill">HTML</h3>
 					</li>
+					<li class="list-skills-item">
+						<h3 class="title-skill">Sass</h3>
+					</li>
 				</ul>
 				</div>
 			</div>
@@ -78,29 +73,15 @@
 		<h2 class="subtitle-main-section">Contacto</h2>
 		<div class="content-background-contact">
 			<div class="content-section-contact">
-				<form action="" class="form-contact">
-					<div  class="content-title-input" id="message-name"><h4 class="title-input">Nombre:</h4></div>
-					<input type="text" name="nombre" value="" placeholder="Nombre" class="form-inputs name-contact"  id="name-value">
-					<div  class="content-title-input" id="message-email"><h4 class="title-input">Correo:</h4></div>	
-					<input  class="form-inputs email-contact" type="email" name="email" value="" placeholder="Correo" id="email">
-					<div class="content-title-input" id="message-textarea"><h4 class="title-input">Mensaje:</h4></div>
-					<textarea id="textarea-value" class="form-inputs message-contact" placeholder="Mensaje"></textarea>
-					<button class="button-submit" type="button" onclick="validacionForm()">Enviar</button>
-				</form>
 				<div class="info-contact">
 					<h2 class="title-contact">Kenia Montano Granados</h2>
 					<p class="paragraph-info">Telefono: <span class="dato-contact">6081-0907</span></p>
 					<p class="paragraph-info">Correos: 
 						<a class="dato-contact link-dato-contact" href="mailto:keniamontano06@gmail.com">keniamontano06@gmail.com</a>
-						<a class="dato-contact link-dato-contact" href="mailto:kenimontano.g@htomail.com">kenimontano.g@htomail.com</a>
+						<a class="dato-contact link-dato-contact" href="mailto:kenimontano.g@hotmail.com">kenimontano.g@htomail.com</a>
 					</p>
 				</div>
 			</div>
-			<ul class="list-network">
-				<li class="list-network-item"><a target="_blank" href="http://www.facebook.com"><div class="size-image list-item-facebook"></div></a></li>
-				<li class="list-network-item"><a target="_blank" href="http://www.twitter.com"><div class="size-image list-item-twitter"></div></a></li>
-				<li class="list-network-item"><a target="_blank" href="https://plus.google.com/u/0/111324288481509924619/posts/p/pub"><div class="size-image list-item-google"></div></a></li>
-		  </ul>
 	</section>
 	<script type="text/javascript" src="js/script.js"></script>
 </body>

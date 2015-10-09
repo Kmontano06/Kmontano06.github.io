@@ -1,5 +1,5 @@
 .section-projects .subtitle-main-section{
-    color:$color-pink-ligth;
+  margin-bottom: 20px;
 }
 .section-projects-container{
   display: inline-block;
@@ -9,57 +9,43 @@
 .list-project{
   list-style: none;
   padding:0;
-  margin-left: 110px;
+  margin: 0 auto;
+  width: 85%;
+  text-align: center
 }
 .list-project-item{
-  width: 40%;
+  width: 25%;
   display: inline-block;
-  margin: 25px;
+  margin: 10px;
   vertical-align: top;
-  background:url(../img/background2.png)no-repeat;
+  background:$color-pink-ligth;
   background-size:100%;
   padding: 20px;
-}
-.container-left{
   text-align: center;
-  display: inline-block;
-  width: 50%;
+  padding-top: 0;
+  height: 370px;
 }
-.container-left-image{
+.list-project-image{
   width: 100%;
-  height: 200px;
 }
-.container-left-title{
-  color:$color-white;
-  margin: 0;
-  font-family: $title-font;
-  font-size: 20px;
-  margin-bottom: 10px;
+.list-project-description{
+  margin:0;
+  margin-bottom: 40px;
+  font-family: $body-font;
+  background:$color-white;
+  padding:20px 10px;
+  font-size: 14px;
+  text-align: left;
 }
-.container-right{
-  text-align: center;
-  display: inline-block;
-  width: 50%;
-  padding:10px;
-  font-size: 15px;
-  vertical-align: top;
-}
-.container-right-link{
+.list-project-link{
     border: 3px solid $color-white;
     padding: 5px 50px;
     color:$color-white;
     font-weight: bold;
+    font-size: 14px;
+    font-family: $body-font;
 }
-.container-right-link:hover{
+.list-project-link:hover{
   background:$color-white;
   color: $color-pink-ligth;
-}
-.container-right-description{
-  margin: 0;
-  margin-bottom: 55px;
-  margin-top: 24px;
-  font-family: $body-font;
-  background:$color-white;
-  padding:20px 10px;
-  text-align: left;
 }
