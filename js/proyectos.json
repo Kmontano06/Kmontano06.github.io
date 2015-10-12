@@ -4,35 +4,35 @@
 		  "nombre":"To Do List",
 		  "imagen":"img/proy1.png",
 		  "url": "../JS Avanzado/To Do List/index.html",
-		  "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		  "descripcion":"Un trabajo creado con JavaScript, HTML5 y CSS3. Se trata de una página que le permite al usuario crear una lista de cosas y checkear las que estan listas.",
 		  "color":"#087c5a"
 		},
 		{
 		  "nombre":"KAMG Clothes",
 		  "imagen":"img/proy2.png",
 		  "url": "../Vitrina Ropa/index.html",
-		  "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		  "descripcion":"Un trabajo creado con JavaScript, HTML5, CSS3 y Sass. Es una Vitrina de Ropa en donde podemos filtrar la ropa por Género y Tipo.",
 		  "color":"#b41859"
 		},
 		{
 		  "nombre":"Player Music",
 		  "imagen":"img/proy3.png",
 		  "url": "../JS Avanzado/Reproductor-Comp/index.html",
-		  "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		  "descripcion":"Este trabajo lo realizamos con JavaScript, HTML5 y CSS3. Este proyecto lo hicimos en grupo con Kym Quiros, Carlos Ramirez y mi persona. Es un Reproductor de Música.",
 		  "color":"#232323"
 		},
 		{
 		  "nombre":"ClimApp",
 		  "imagen":"img/proy4.png",
 		  "url": "../JS Avanzado/ClimApp/index.html",
-		  "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		  "descripcion":"Este trabajo se realizo con JavaScript, HTML5 y CSS3. Los datos son llamados de API de la web. Lo que hace es llamar los datos del clima de una ciudad.",
 		  "color":"#0b4b78"
 		},
 		{
 		  "nombre":"KAMG Inventario",
 		  "imagen":"img/proy5.png",
 		  "url": "../JS/Semana 8/Inventario/index.html",
-		  "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+		  "descripcion":"Se creo con JavaScript, HTML5 y CSS3. Es un sitio que mantiene el inventario de productos y le permite al usuario ingresar nuevos productos.",
 		  "color":"#34495e"
 		}
 	]

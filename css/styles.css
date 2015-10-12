@@ -433,7 +433,7 @@ h1, h2, h3, h4 {
   padding: 20px;
   text-align: center;
   padding-top: 0;
-  height: 370px; }
+  height: 430px; }
 
 .list-project-image {
   width: 100%; }
@@ -445,7 +445,9 @@ h1, h2, h3, h4 {
   background: #fff;
   padding: 20px 10px;
   font-size: 14px;
-  text-align: left; }
+  text-align: left;
+  height: 135px;
+  padding-top: 10px; }
 
 .list-project-link {
   border: 3px solid #fff;
@@ -503,5 +505,3 @@ h1, h2, h3, h4 {
 
 .link-dato-contact:hover {
   text-decoration: underline; }
-
-/*# sourceMappingURL=styles.css.map */
