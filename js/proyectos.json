@@ -34,6 +34,13 @@
 		  "url": "https://github.com/Kmontano06/Inventario",
 		  "descripcion":"Se creo con JavaScript, HTML5 y CSS3. Es un sitio que mantiene el inventario de productos y le permite al usuario ingresar nuevos productos.",
 		  "color":"#34495e"
+		},
+		{
+		  "nombre":"Juego Ahorcado",
+		  "imagen":"img/proy7.png",
+		  "url": "https://github.com/Kmontano06/Juego_Ahorcado",
+		  "descripcion":"Se creo con JavaScript, HTML5, CSS3 y Sass. Este es un juego de Ahorcado en el que el usuario debe adivinar la palabra.",
+		  "color":"#000"
 		}
 	]
 }
