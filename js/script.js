@@ -15,7 +15,7 @@ app.proyectos = function(){
     imprimirProyectos:function(proyectos){
       var list_proyectos ="";
       for(var i=0; i < proyectos.length; i++){
-         list_proyectos += '<li class="list-project-item"><img class="list-project-image" src="'+proyectos[i].imagen+'"/><p class="list-project-description">'+proyectos[i].descripcion+'</p><a class="list-project-link" target="_blank" href="'+proyectos[i].url+'">Ir al Sitio</a></li>'
+         list_proyectos += '<li class="list-project-item"><img class="list-project-image" src="'+proyectos[i].imagen+'"/><p class="list-project-description">'+proyectos[i].descripcion+'</p><a class="list-project-link" target="_blank" href="'+proyectos[i].url+'">GitHub</a></li>'
       }
       document.getElementById("proyectos").innerHTML= "<ul class='list-project'>"+list_proyectos+"</ul>";
       app.proyectos.colorProjects(proyectos);

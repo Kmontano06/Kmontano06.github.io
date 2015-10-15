@@ -4,6 +4,7 @@
 		  "nombre":"To Do List",
 		  "imagen":"img/proy1.png",
 		  "url": "https://github.com/Kmontano06/To_Do_List",
+		  "github":"https://github.com/Kmontano06/To_Do_List",
 		  "descripcion":"Un trabajo creado con JavaScript, HTML5 y CSS3. Se trata de una página que le permite al usuario crear una lista de cosas y checkear las que estan listas.",
 		  "color":"#087c5a"
 		},
@@ -11,6 +12,7 @@
 		  "nombre":"KAMG Clothes",
 		  "imagen":"img/proy2.png",
 		  "url": "https://github.com/Kmontano06/Vitrina_Ropa",
+		  "github":"https://github.com/Kmontano06/Vitrina_Ropa",
 		  "descripcion":"Un trabajo creado con JavaScript, HTML5, CSS3 y Sass. Es una Vitrina de Ropa en donde podemos filtrar la ropa por Género y Tipo.",
 		  "color":"#b41859"
 		},
@@ -18,6 +20,7 @@
 		  "nombre":"Player Music",
 		  "imagen":"img/proy3.png",
 		  "url": "https://github.com/Kmontano06/Reproductor",
+		  "github":"https://github.com/Kmontano06/Reproductor",
 		  "descripcion":"Este trabajo lo realizamos con JavaScript, HTML5 y CSS3. Este proyecto lo hicimos en grupo con Kym Quiros, Carlos Ramirez y mi persona. Es un Reproductor de Música.",
 		  "color":"#232323"
 		},
@@ -25,6 +28,7 @@
 		  "nombre":"ClimApp",
 		  "imagen":"img/proy4.png",
 		  "url": "https://github.com/Kmontano06/ClimApp",
+		  "github":"https://github.com/Kmontano06/ClimApp",
 		  "descripcion":"Este trabajo se realizo con JavaScript, HTML5 y CSS3. Los datos son llamados de API de la web. Lo que hace es llamar los datos del clima de una ciudad.",
 		  "color":"#0b4b78"
 		},
@@ -32,6 +36,7 @@
 		  "nombre":"KAMG Inventario",
 		  "imagen":"img/proy5.png",
 		  "url": "https://github.com/Kmontano06/Inventario",
+		  "github":"https://github.com/Kmontano06/Inventario",
 		  "descripcion":"Se creo con JavaScript, HTML5 y CSS3. Es un sitio que mantiene el inventario de productos y le permite al usuario ingresar nuevos productos.",
 		  "color":"#34495e"
 		},
@@ -39,6 +44,7 @@
 		  "nombre":"Juego Ahorcado",
 		  "imagen":"img/proy7.png",
 		  "url": "https://github.com/Kmontano06/Juego_Ahorcado",
+		  "github":"https://github.com/Kmontano06/Juego_Ahorcado",
 		  "descripcion":"Se creo con JavaScript, HTML5, CSS3 y Sass. Este es un juego de Ahorcado en el que el usuario debe adivinar la palabra.",
 		  "color":"#000"
 		}

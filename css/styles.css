@@ -324,16 +324,14 @@ h1, h2, h3, h4 {
   width: 30%;
   text-align: center;
   margin: 0 auto; }
-
-.title-welcome {
-  font-size: 25px;
-  font-family: "Raleway", sans-serif;
-  color: #fff; }
-
-.paragraph-welcome {
-  font-size: 18px;
-  font-family: "Raleway", sans-serif;
-  color: #fff; }
+  .content-welcome-title {
+    font-size: 25px;
+    font-family: "Raleway", sans-serif;
+    color: #fff; }
+  .content-welcome-paragraph {
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    color: #fff; }
 
 /*
   Indice Presentacion:
@@ -433,21 +431,20 @@ h1, h2, h3, h4 {
   padding: 20px;
   text-align: center;
   padding-top: 0;
-  height: 430px; }
+  height: 460px; }
 
 .list-project-image {
   width: 100%; }
 
 .list-project-description {
   margin: 0;
-  margin-bottom: 40px;
+  margin-bottom: 25px;
   font-family: "Quicksand", Trebuchet MS, sans-serif;
   background: #fff;
-  padding: 20px 10px;
+  padding: 10px;
   font-size: 14px;
   text-align: left;
-  height: 135px;
-  padding-top: 10px; }
+  height: 135px; }
 
 .list-project-link {
   border: 3px solid #fff;
@@ -455,7 +452,9 @@ h1, h2, h3, h4 {
   color: #fff;
   font-weight: bold;
   font-size: 14px;
-  font-family: "Quicksand", Trebuchet MS, sans-serif; }
+  font-family: "Quicksand", Trebuchet MS, sans-serif;
+  display: block;
+  margin: 13px; }
 
 .list-project-link:hover {
   background: #fff;
@@ -505,3 +504,5 @@ h1, h2, h3, h4 {
 
 .link-dato-contact:hover {
   text-decoration: underline; }
+
+/*# sourceMappingURL=styles.css.map */

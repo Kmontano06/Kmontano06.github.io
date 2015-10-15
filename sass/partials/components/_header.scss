@@ -2,11 +2,11 @@
 
 */
 .content-image{
-  width: 100%;
-  height: 600px; 
-  background: url(../img/web.png)no-repeat;
-  background-size:100% 100%;
-  padding-top: 70px;
+	width: 100%;
+	height: 600px; 
+	background: url(../img/web.png)no-repeat;
+	background-size:100% 100%;
+	padding-top: 70px;
 }
 .content-welcome{
 	background:$color-pink;
@@ -14,14 +14,15 @@
 	width:30%;
 	text-align:center;
 	margin:0 auto;
-}
-.title-welcome{
-	font-size:25px;
-	font-family:$title-font;
-	color:$color-white;
-}
-.paragraph-welcome{
-	font-size:18px;
-	font-family:$title-font;
-	color:$color-white;
+
+	&-title{
+		font-size:25px;
+		font-family:$title-font;
+		color:$color-white;
+	}
+	&-paragraph{
+		font-size:18px;
+		font-family:$title-font;
+		color:$color-white;
+	}
 }
