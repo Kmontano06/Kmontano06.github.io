@@ -13,14 +13,21 @@
 	padding:30px;
 	padding-top:25px;
 	font-size: 15px;
-  	font-family:$body-font;
+  font-family:$body-font;
+}
+.content-about{
+	@media(min-width:1280px){
+		max-width: 1000px;
+		margin:0 auto;
+		margin-top: 70px;
+	}
 }
 .content-about-rigth{
-	width:40%;
-	display:inline-block;
-	margin-left:110px;
-	vertical-align: top;
-
+	@media(min-width:1024px){
+		width:50%;
+		display:inline-block;
+		margin-right: 60px;
+	}
 }
 .title-info{
  	color:$color-pink-dark;

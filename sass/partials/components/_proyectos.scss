@@ -14,35 +14,64 @@
 }
 .list-project{
     list-style: none;
-    padding:0;
-    margin: 0 auto;
-    width: 85%;
-    margin-left: 195px;
+    margin: 0px auto;
+    width: 100%;
+    padding: 10px;
+
+    @media(min-width:960px){
+        max-width: 1000px
+    }
 }
 .list-project-item{
-    width: 25%;
-    display: inline-block;
-    margin: 10px;
-    vertical-align: top;
     background:$color-pink-ligth;
-    background-size:100%;
-    padding: 20px;
+    padding: 0px 20px 20px;
     text-align: center;
-    padding-top: 0;
-    height: 460px;
+    margin-bottom: 10px;
+
+    @media(min-width:640px){
+        display: inline-block;
+        vertical-align: top;
+        width: 45%;
+        margin: 15px;
+        height: 365px;
+    }
+
+    @media(min-width:768px){
+        width: 30%;
+        margin: 10px;
+        height: 460px;
+    }
 }
 .list-project-image{
-    width: 100%;
+
+    @media(min-width:640px){
+        width: 70%;
+    }
+
+    @media(min-width:768px){
+        width: 100%;
+    }
 }
 .list-project-description{
     margin:0;
     margin-bottom: 25px;
     font-family: $body-font;
     background:$color-white;
-    padding:10px;
+    padding:15px;
     font-size: 14px;
     text-align: left;
-    height: 135px;
+
+    @media(min-width:640px){
+        height: 130px;
+    }
+
+    @media(min-width:768px){
+        height: 195px;
+    }
+
+    @media(min-width:875px){
+         height: 155px;
+    }
 }
 .list-project-link{
     border: 3px solid $color-white;
@@ -54,7 +83,9 @@
     display: block;
     margin:13px;
 }
-.list-project-link:hover{
-    background:$color-white;
-    color: $color-pink-ligth;
+@media(min-width:1024px){
+    .list-project-link:hover{
+        background:$color-white;
+        color: $color-pink-ligth;
+    }
 }
