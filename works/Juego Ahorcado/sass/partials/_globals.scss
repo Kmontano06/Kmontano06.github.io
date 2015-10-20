@@ -1,0 +1,47 @@
+/*
+	Indice Globals:
+*/
+/*  #Style Main */
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  margin: 0;
+  padding:0;
+  background:url(../img/background.png);
+	background-size:100%;
+  font-family: $body-font;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body{
+	height:100%;
+}
+ul{
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+button{
+  border:none;
+  padding:20px 70px;
+  font-size:20px;
+  margin:10px;
+  &:hover{
+    text-decoration: underline;
+  }
+}
+.wrapper{
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+.title-wrapper{
+  margin: 0 auto;
+  font-size: 25px;
+  color: $color-white;
+  font-weight: lighter;
+  margin-bottom: 80px;
+  width: 330px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>To Do List</title>
+	<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta charset="utf-8">
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header-main">
+			<img class="header-image" src="img/logo-name.png">
+		</header><!-- header -->
+		<div class="content-main" id="container">
+			 	<div class="content-form" id="form">
+			 		<input type="text" id="noteItem" class="input-note" value="" placeholder="Note:">
+			 		<button id="save" onclick="listInline()" class="button button-save">Guardar</button>
+			 	</div>
+			 	<div class="content-info" id="faltaHacer">
+			 		  <ul class="list-info">
+			 		  		<li id="done" class="list-info-item">
+			 		  			<h2 class='title-item'>Done:</h2>
+			 		  			<p class='number-item'>0</p>
+			 		  		</li>
+			 		  		<li id="total" class="list-info-item">
+			 		  			<h2 class='title-item'>Total:</h2>
+			 		  			<p class='number-item'>0</p>
+			 		  		</li>
+			 		  		<li id="to-do" class="list-info-item">
+			 		  			<h2 class='title-item'>To Do:</h2>
+			 		  			<p class='number-item'>0</p>
+			 		  		</li>
+			 		  </ul>	
+			 	</div>
+			 	<div id="list" class="content-list">
+			 		 <!--JavaScript-->
+			 	</div>
+		</div>		
+	</div><!-- wrapper-->
+<script type="text/javascript" src="js/scripts.js"></script>
+</body>
+</html>

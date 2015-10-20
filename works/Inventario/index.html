@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>KAMG Inventario</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+</head>
+<body>
+	<header class="header-main">
+		<img src="img/logo.png" class="main-logo">
+		<h1 class="title-main">Inventario</h1>
+	</header>
+	<section class="content-list-products" id="products-name"></section>
+	<div class="content-right">
+		<section class="content-product" id="product"></section>
+		<section class="content-form">
+			<div class="content-title">
+				<h1 class="title-form">Agregar nuevo producto:</h1>
+			</div>
+			<form>
+				<div class="form-left">
+					<label>Nombre: </label>
+					<input type="text" value="" name="nombre" id="nombre" >
+					<label class="textarea-label">Detalle: </label>
+					<textarea id="detalle"></textarea>
+					<label>Nombre Imagen: </label>
+					<input type="text" value="" name="image" id="image" >
+				</div>
+				<div class="form-right">
+					<label>Cantidad: </label>
+					<input type="text" value="" name="cantidad" id="cantidad" >
+					<label>Precio: </label>
+				  <input type="text" value="" name="precio" id="precio" >
+					<label>Código: </label>
+				  <input type="text" value="" name="codigo" id="codigo">
+					<input type="button" value="Agregar" class="button" onclick="AppInventario.inventarioProductos.agregarProducto()">
+				</div>
+			</form>
+		</section>
+	</div>
+	
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

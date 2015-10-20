@@ -1,0 +1,42 @@
+.content-popup{
+	position: fixed;
+  width: 50%;
+  top: 117px;
+  left: 335px;
+  padding: 50px;
+	background:$color-white;
+	display:none;
+	.logo-image{
+		width: 16%;
+    left: -7px;
+    top: 19px;
+    position: absolute;
+	}
+	.title{
+		position: absolute;
+    right: 20px;
+    top: 25px;
+    width: 25%;
+	}
+}
+.content-info{
+	margin-top: 85px;
+  text-align: center;
+}
+.title-message{
+	font-size:35px;
+	color:$color-yellow;
+	font-family:$title-font;
+	font-weight: lighter;
+}
+.subtitle-message{
+	font-size:25px;
+	color:$color-yellow;
+	font-family:$body-font;
+	font-weight: lighter;
+}
+.button-message{
+	padding: 10px 40px;
+	background:$color-yellow;
+	margin-top:50px;
+}

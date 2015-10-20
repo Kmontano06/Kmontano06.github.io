@@ -1,0 +1,29 @@
+.list-button-item{
+	display:inline-block;
+	width:21%;
+}
+.button-level{
+	color:$color-white;
+}
+.button-start{
+	background:$color-yellow;
+	color:$color-black;
+	margin-top:100px;
+	&:hover{
+		text-decoration: underline;
+	}
+}
+.level-1{
+	background:$color-blue;
+}
+.level-2{
+	background:$color-orange;
+}
+.level-3{
+	background:$color-green;
+}
+.select{
+	background:$color-white;
+	color:$color-yellow;
+	font-weight:bold;
+}

@@ -1,0 +1,128 @@
+@import url(http://fonts.googleapis.com/css?family=Nunito);
+@import url(http://fonts.googleapis.com/css?family=Slabo+27px);
+html{
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: "Nunito", Arial,sans-serif;
+  height: 100%;
+ background: url(../img/corcho.jpg);
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+::-webkit-input-placeholder { color: #fff; }
+:-moz-placeholder { color:#fff; }
+::-moz-placeholder { color:#fff; }
+:-ms-input-placeholder { color:#fff; }
+.button{
+	border: 3px solid;
+	background: transparent;
+	border-radius: 5px;
+	font-size: 17px;
+}
+.wrapper{
+	width: 100%;
+}
+.header-main{
+	background: #f5f5f5;
+	width: 100%;
+	padding: 25px;
+	text-align: center;
+}
+.header-image{
+	width: 15%;
+}
+.content-form{
+	padding: 15px 300px;
+	background: #dc522d;
+}
+.item-check{
+	width: 10%;
+  	height: 29px;
+ 	margin: 0 auto;
+}
+.input-note{
+	border: 3px solid #fff;
+	padding: 10px;
+	background: transparent;
+	border-radius: 5px;
+	width: 70%;
+	margin-right: 50px;
+	font-size: 17px;
+	color: #fff;
+}
+.button-save{
+	padding: 10px 30px;
+	color:#fff;
+	border-color:#fff;
+}
+.button-save:hover{
+	background:#fff;
+	color:#dc522d;
+}
+.content-info{
+	background: #f5f5f5;
+}
+.list-note{
+	list-style: none;
+}
+.list-note-item{
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
+  background: url(../img/fondo-item.png)no-repeat;
+  height: 310px;
+  background-size: 103%;
+  margin: 35px;
+  position: relative;
+  padding-top: 100px;
+  font-family: "Slabo 27px", Arial,sans-serif;
+  text-align: center;
+
+}
+.content-list-item{
+	width: 100%;
+ 	padding: 10px;
+}
+.title-list{
+	  margin: 0;
+	  margin-bottom: 30px;
+	  margin-top: 15px;
+	  font-size: 20px;
+}
+.button-list{
+	padding: 5px 15px;
+	border-color:#087c5a;
+	color:#087c5a;
+	font-family: "Nunito", Arial,sans-serif;
+}
+.button-list:hover{
+	background:#087c5a;
+	color:#fff;
+}
+.list-info{
+	list-style: none;
+	text-align: center;
+	margin: 0;
+}
+.list-info-item{
+  display: inline-block;
+  vertical-align: top;
+  width: 15%;
+  background: #fff;
+  margin: 10px 30px 10px 0;
+  text-align: center;
+}
+.title-item{
+	background: #f5f5f5;
+	color: #087c5a;
+	width: 100%;
+	text-align: center;
+	margin: 0;
+}
+.number-item{
+	color: #dc522d;
+	font-size: 20px;
+	margin: 0;
+	padding: 5px;
+}

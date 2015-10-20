@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+	<title>Juego Ahorcado</title>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<div class="opacity-content">
+	<header class="header-main">
+		<h1 class="title">J<span class="font-little">UEGO</span> A<span class="font-little">HORCADO</span></h1>
+		<img class="logo-image" src="img/logo.png" alt="">
+	</header>
+	<section class="wrapper" id="wrapper">
+		<div class="content-levels">
+			<h3 class="title-wrapper" id="title-wrapper">Escoge tu Nivel!!!</h3>
+			<ul list-button>
+				<li class="list-button-item">
+					<button class="button-level level-1" onclick="Game.chooseLevel(1)">Nivel 1</button>
+				</li>
+				<li class="list-button-item">
+					<button class="button-level level-2" onclick="Game.chooseLevel(2)">Nivel 2</button>
+				</li>
+				<li class="list-button-item">
+					<button class="button-level level-3"  onclick="Game.chooseLevel(3)">Nivel 3</button>
+				</li>
+			</ul>
+			<button class="button-start" id="start" disabled onclick="Game.startGame()">Iniciar Juego</button>
+		</div>
+	</section>
+</div>
+	<section class="content-popup" id="popup">
+		<!--Se crea con JavaScript-->
+	</section>
+	
+	<script type="text/javascript" src="js/scripts.js"></script>
+</body>
+</html>

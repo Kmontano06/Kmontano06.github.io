@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ClimApp</title>
+		<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+	    <div class="content-main">
+			<div class="content-search">
+				<img class="logo-image" src="img/logo.png" alt="">
+				<form class="form-container">
+					<input type="text" id="name-city" name="city" class="input-city" value="" placeholder="Ingrese el nombre de una ciudad">
+					<select id="select" class="select-countries" name="pais">
+						<!--Javascript-->
+					</select>
+					<input type="button" id="search" class="button-search" name="search" value="Enviar" onclick="ajaxRequest()"> 
+				</form>
+			</div>
+			<div id="description" class="content-countries"></div>
+		</div>
+		<script type="text/javascript" src="js/scripts.js"></script>
+	</body>
+</html>
