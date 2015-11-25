@@ -204,13 +204,15 @@ html {
   font-size: 62.5%;
   font-family: "Arvo", Arial, sans-serif;
   position: relative;
-  margin: 0; }
+  margin: 0;
+  height: 100%; }
 
 *, *:before, *:after {
   box-sizing: inherit; }
 
 body {
-  background: #000; }
+  background: #000;
+  height: inherit; }
 
 .button {
   padding: 3px 15px;
@@ -240,7 +242,8 @@ h3, h4 {
   margin: 10px 0; }
 
 .opacity-content {
-  background: #fff; }
+  background: #fff;
+  height: inherit; }
 
 .header-main {
   width: 100%;
@@ -378,3 +381,5 @@ h3, h4 {
     transform: scale3d(0.3, 0.3, 0.3); }
   50% {
     opacity: 1; } }
+
+/*# sourceMappingURL=styles.css.map */
