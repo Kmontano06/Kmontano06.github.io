@@ -11,7 +11,7 @@ var Clothes=(function(){
 		  if (mygetrequest.readyState === 4 &&  mygetrequest.status == 200){
 		    var jsonObj = JSON.parse(mygetrequest.responseText);
 		    arrayAll=jsonObj.Clothes;
-		    for (var i = 0; i < jsonObj.Clothes.length; i++) { 
+		    for (var i = 0; i < jsonObj.Clothes.length; i++) {
 		       arrayType.push(jsonObj.Clothes[i].type);
 				};
 			printList(arrayAll);
@@ -74,6 +74,7 @@ var Clothes=(function(){
 	function showInfoProduct(code){
 		var info_product="";
 		document.getElementsByClassName("opacity-content")[0].style.opacity="0.20";
+		document.getElementsByClassName("opacity-content")[0].style.overflow="hidden";
 		document.getElementsByClassName("section-popup")[0].className='section-popup animated zoomIn';
 
 

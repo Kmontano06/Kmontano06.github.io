@@ -204,15 +204,13 @@ html {
   font-size: 62.5%;
   font-family: "Arvo", Arial, sans-serif;
   position: relative;
-  margin: 0;
-  height: 100%; }
+  margin: 0; }
 
 *, *:before, *:after {
   box-sizing: inherit; }
 
 body {
-  background: #000;
-  height: inherit; }
+  background: #000; }
 
 .button {
   padding: 3px 15px;
@@ -242,8 +240,7 @@ h3, h4 {
   margin: 10px 0; }
 
 .opacity-content {
-  background: #fff;
-  height: inherit; }
+  background: #fff; }
 
 .header-main {
   width: 100%;
